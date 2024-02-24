@@ -1,30 +1,5 @@
 # Rex Notes
-- NPM Commands
-  - "npm run dev" - Run localhost:3000
-  - "npm run build" - Build the project
-- Notes
-  - The page refreshes immediately when you save!
-
-## Components
-- 
-
-## Components
-- See components in the "components" folder
-- Header
-- Footer
-
-
-## TODO:
-- Create a new page
-  - Just create a new file under pages and the route will just work.
-- Create a new component
-- Create a React Server Component - https://nextjs.org/docs/app/building-your-application/rendering/server-components
-  - Both Dynamic and Static
-  - In the Server Component, make an API call and display the results.
-
-## Development Notes
-
-
+- Run Localhost - "npm run dev"
 
 
 # Next + Netlify Starter

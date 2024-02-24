@@ -1,25 +1,24 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import TestComponent from '@components/TestComponent'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Next.js Test Page!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <Header title="Welcome to my BB app!!#" />
+        <Header title="TEST PAGE" />
         <p className="description">
-          <ul>
-            <li><a href="/test">View Test Page</a></li>
-          </ul>
-          
+          Get started by editing <code>pages/index.js</code>
         </p>
       </main>
 
+      <TestComponent/>
       <Footer />
     </div>
   )
